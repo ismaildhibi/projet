@@ -1,0 +1,40 @@
+:root {
+  --mainDark: #343a40;
+  --mainGrey: rgba(109, 109, 109);
+  --mainLightGrey: rgba(172, 172, 172);
+  --mainWhite: #fff;
+  --mainBlue: #007bff;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+nav {
+background-color:  lightsteelblue;
+}
+.bs-example {
+  margin-top: -100px;
+    padding: 282px;
+}
+.navbar-collapse{
+  
+  justify-content: space-around;
+}
+.auth button{
+  margin: 0px 5px;
+  width:73px;
+  height:38px;
+  padding:0px;
+}
+.auth{
+  margin-left:15px;
+}
+.menu-set{
+  display:flex;
+  justify-content: space-between;
+}
